@@ -3,7 +3,7 @@
     $username = "";
     $servername = "sites.local";
     $password = "";
-    $dbname = "helppppp";
+    $dbname = "helpdeskDB";
 
 
     try {
