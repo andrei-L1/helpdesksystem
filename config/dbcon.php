@@ -1,6 +1,6 @@
 <?php
 
-    $username = "";
+    $username = "root";
     $servername = "sites.local";
     $password = "";
     $dbname = "helpdeskDB";
