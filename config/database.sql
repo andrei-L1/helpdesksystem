@@ -115,7 +115,8 @@ CREATE TABLE users (
     FOREIGN KEY (role_id) REFERENCES roles(id) ON DELETE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-
+ALTER TABLE users
+    MODIFY middle_name VARCHAR(120) NULL DEFAULT NULL;
 -- -------------------------------------------------------------------------
 -- Organizational structure
 -- -------------------------------------------------------------------------
